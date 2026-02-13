@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Eroded; /* set name */
+  src: url(fonts/ERODED\ PERSONAL\ USE.ttf); /* url of the font */
+}
+
+body{
+    background-image: url("assets/background.jpg");
+    background-position: center center;
+    background-repeat: repeat;
+}
+
+h1{
+
+}
+
+h2 {
+  font-family: Eroded; /* use font */
+  font-weight: lighter;
+}
+
+p {
+  font-family: Eroded; /* use font */
+}
+
+/* custom fonts code from w3 schools https://www.w3schools.com/css/css3_fonts.asp thx */
