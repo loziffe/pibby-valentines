@@ -9,6 +9,14 @@ body {
     background-repeat: repeat;
 }
 
+div {
+  background-color: rgba(247, 0, 255, .07);
+  outline: auto;
+  outline-color:  rgb(111, 0, 255);
+  outline-width: 50px;
+  text-align: center;
+}
+
 h1 {
  font-family: Eroded;
  font-weight:lighter
@@ -25,6 +33,16 @@ p {
 
 .nowrap {
   text-wrap: nowrap;
+}
+
+#wrapper{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px;
+    /* shadow the tag and rgba(%,%,%,%) */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    background-color: #eff8fb;
 }
 
 /* custom fonts code from w3 schools https://www.w3schools.com/css/css3_fonts.asp thx */
